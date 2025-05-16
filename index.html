@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Amazing Adventure - A Children's Book</title>
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="book-container">
+    <div class="page-content" data-page="0">
+      <div class="page-image-container">
+        <img src="https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Book cover showing a magical forest" class="page-image">
+      </div>
+      <div class="cover-page">
+        <h1 class="cover-title">The Amazing Adventure</h1>
+        <h2 class="cover-subtitle">A magical journey through the enchanted forest</h2>
+        <p>Written by Author Name</p>
+        <p>Illustrated by Illustrator Name</p>
+        <button class="start-reading">Start Reading <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+    
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 0%"></div>
+    </div>
+    
+    <div class="navigation">
+      <button class="nav-button prev disabled">
+        <i class="fas fa-arrow-left"></i> Previous
+      </button>
+      <button class="nav-button next">
+        Next <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+  
+  <script src="src/js/navigation.js"></script>
+</body>
+</html>
